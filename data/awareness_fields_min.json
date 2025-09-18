@@ -1,0 +1,13 @@
+{
+  "locale": "zh-TW",
+  "presence": {
+    "enabled": true
+  },
+  "frequency": {
+    "bands": [
+      "low",
+      "mid",
+      "high"
+    ]
+  }
+}

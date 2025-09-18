@@ -1,0 +1,9 @@
+# Default owner is the user's GitHub handle. Update to your org team when you migrate.
+* @whei02
+/awareness_sdk/* @whei02
+/tests/* @whei02
+
+# Example for organization team (uncomment after creating the team):
+# * @soul-insight-lab/maintainers
+# /awareness_sdk/* @soul-insight-lab/maintainers
+# /tests/* @soul-insight-lab/maintainers

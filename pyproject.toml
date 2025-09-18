@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awareness-sdk"
+version = "0.0.1"
+description = "面向覺察的對話 SDK：鏡映 / 臨在 / 頻率 / 共振四層管線，支援線上/離線 LLM、CLI 與可客製化 prompts。 Awareness-focused dialog SDK: mirror, presence, frequency & resonance pipeline with online/offline LLM, CLI, and customizable prompts."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{ name = "Soul Insight Lab" }]
+dependencies = [
+  "openai>=1.30.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "PyYAML>=6.0",
+  "pytest>=7.0",
+  "ruff>=0.5.0",
+]
+
+[tool.setuptools]
+packages = ["awareness_sdk"]
+
+
+[project.scripts]
+awareness-cli = "awareness_sdk.examples.quickstart_chat:main"
