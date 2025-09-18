@@ -1,37 +1,23 @@
-# Contributing
+# Contributing to Awareness SDK
 
-Thanks for helping improve Awareness SDK!
+感謝你願意為本專案貢獻！此文件說明從建立分支、提交變更到開 Pull Request（PR）的完整流程與規範。請在提出任何變更前，先閱讀以下內容。
 
-## Environment & Install
-- Python ≥ 3.9
-- Create a virtual environment and install dev deps:
-  ```bash
-  python -m venv .venv
-  # Windows: .venv\Scripts\activate
-  pip install -e ".[dev]"
-  python -m pytest -q
-  ```
+---
 
-## Coding Style
-- Follow PEP 8; prefer type hints.
-- Keep PRs focused and small.
-- Add/adjust tests for behavior changes in `tests/`.
-- Update README/examples when public API or CLI changes.
+## 快速開始（TL;DR）
+```bat
+# 取得最新 main
+git checkout main
+git fetch origin
+git pull --rebase origin main
 
-## Testing
-- Unit tests must pass locally and in CI: `python -m pytest -q`.
-- Avoid real network calls in tests; use stubs/fallbacks.
+# 建立工作分支（請用有意義的名字）
+git checkout -b docs/enhancement-001
 
-## CLI
-- Keep backwards compatibility when possible.
-- Document new flags in README and examples.
+# 開發、加入變更並提交
+git add .
+git commit -m "docs: refine contributing and PR template"
 
-## Security
-- Never commit secrets or API keys.
-- Use GitHub Actions Secrets for CI secrets.
-
-## Making a PR
-1. Fork or branch off `main`.
-2. Commit messages using Conventional Commits (e.g., `feat:`, `fix:`, `docs:`, `test:`, `ci:`).
-3. Open a PR and fill out the template.
-4. Ensure CI passes and respond to reviews.
+# 推到遠端並開 PR
+git push -u origin docs/enhancement-001
+# 之後到 GitHub：從 docs/enhancement-001 → main 建立 Pull Request
