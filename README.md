@@ -2,6 +2,10 @@
 >
 > Awareness-focused dialog SDK: mirror, presence, frequency & resonance pipeline with online/offline LLM, CLI, and customizable prompts.
 
+![CI](https://github.com/whei02/awareness-sdk/actions/workflows/ci.yml/badge.svg?branch=main)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+
 <p align="center">
   <a href="https://github.com/YOUR_GH_USERNAME/awareness-sdk/actions/workflows/ci.yml">
     <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/YOUR_GH_USERNAME/awareness-sdk/ci.yml?branch=main">
