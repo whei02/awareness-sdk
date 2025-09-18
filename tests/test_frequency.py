@@ -12,7 +12,7 @@ def test_detect_high_frequency():
     assert res["band"] == "high"
     assert res["score"] > 400
     assert any(cue in ["喜悅", "感謝", "興奮"] for cue in res["cues"])
-tests/test_pipeline.py
+
 from awareness_sdk.pipeline import AwarenessPipeline
 from awareness_sdk.integrations.openai_client import OpenAIChat
 
