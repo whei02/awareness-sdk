@@ -1,28 +1,14 @@
-# 📌 Pull Request 標題
-<!-- 請用簡短有力的語句，例如：docs: update contributing guide -->
+## Summary
+- What changed and why
 
-## ✨ 摘要
-- 說明這個 PR 做了什麼、為什麼需要。
+## Changes
+- [ ] Explain the functional changes
+- [ ] Note any breaking changes (if any)
 
-## 🔄 變更內容
-- [ ] 新功能 (feat)
-- [ ] Bug 修正 (fix)
-- [ ] 文件更新 (docs)
-- [ ] 重構 (refactor)
-- [ ] 測試 (test)
-- [ ] 其他 (chore)
+## Tests
+- [ ] Local: `python -m pytest -q` passes
+- [ ] Added/updated unit tests (if applicable)
 
-## 🧪 測試步驟
-1. 說明要如何測試這個 PR
-2. 是否有自動化測試？手動測試方式？
-
-## ⚠️ 影響範圍 / 風險
-- 會影響哪些模組或使用者？
-- 是否有相容性問題？
-
-## 🔙 回滾方案
-- 如果這個 PR 有問題，要怎麼回退？
-
-## 📎 相關 Issue / PR
-- 關聯：#123, #456
-
+## Checklist
+- [ ] Updated docs/README or examples (if applicable)
+- [ ] Backwards compatible (CLI/API)
