@@ -70,3 +70,5 @@ git branch -M main
 git remote add origin https://github.com/whei02/awareness-sdk.git
 git push -u origin main
 ```
+
+ [閱讀 Awareness-SDK 的願景文件](VISION.md)
