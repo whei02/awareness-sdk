@@ -49,5 +49,3 @@
 * 定期更新此文件，確保與實際開發同步
 
 ---
-
-要不要我順便幫你產生一個 **GitHub Project / Milestone 配置範例**（像是 v0.1 backlog issue 清單）？這樣你可以直接丟進 issue tracker 用。
